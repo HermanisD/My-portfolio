@@ -1,6 +1,7 @@
 .experience_container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    justify-self: center;
     gap: 2rem;
 }
 
